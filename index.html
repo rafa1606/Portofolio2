@@ -157,6 +157,54 @@
   </style>
 </head>
 <body>
+      <!-- ============================================================
+       OUTLINE STRUKTUR HTML WEBSITE PORTFOLIO PRIBADI
+       ============================================================
+
+  1. BAGIAN HEAD
+     - Berisi meta tags, title, serta memuat CDN Bootstrap CSS,
+       Bootstrap Icons, dan style CSS kustom
+
+  2. BAGIAN BODY
+     A. NAVIGATION BAR (<nav class="navbar fixed-top">)
+        - Dibungkus container-xl
+        - Teks Brand / Nama (kiri)
+        - Toggler Button (muncul saat ukuran layar mobile/tablet)
+        - Daftar Menu Navigasi (kanan): Beranda, Tentang, Proyek, Kontak
+
+     B. HERO SECTION (<section id="beranda">)
+        - Dibungkus container-xl
+        - Kolom Kiri (col-lg-7): hero-tag, judul nama, deskripsi, tombol CTA
+        - Kolom Kanan (col-lg-5): foto profil avatar melingkar + floating badge
+
+     C. TENTANG DIRI (<section id="tentang">)
+        - Dibungkus container-xl
+        - Judul Section
+        - Grid Row dibagi 2 kolom rata (col-md-6):
+          -> Kolom Kiri: Gambar ilustrasi IoT & Robotics
+          -> Kolom Kanan: Paragraf deskripsi diri + area Keahlian Teknis
+             (Grid Keahlian dibagi 2 kolom menggunakan col-6)
+
+     D. PROYEK SECTION (<section id="proyek">)
+        - Dibungkus container-xl
+        - Judul Section
+        - Grid Row dibagi 3 kolom (col-md-6 col-lg-4):
+          -> Kolom 1: Card Proyek Robot Sumo
+          -> Kolom 2: Card Proyek Robot Soccer
+          -> Kolom 3: Card Proyek Smart Environment Monitor
+          (Setiap card berisi: gambar, badge, judul, deskripsi, tombol Detail)
+
+     E. FOOTER (<footer id="kontak">)
+        - Dibungkus container-xl
+        - Layout konten terpusat di tengah (flex-column align-items-center)
+        - Nama brand
+        - Ikon Tautan Sosial Media (GitHub, LinkedIn, Instagram)
+        - Teks Copyright/Hak Cipta
+
+     F. BAGIAN SCRIPT JS
+        - Memuat Bootstrap JS Bundle dari CDN sebelum penutup tag </body>
+        - Script navbar scroll effect
+  ============================================================ -->
 
   <!-- ============================================================
        A. NAVIGATION BAR
